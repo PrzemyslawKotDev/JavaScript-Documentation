@@ -1,0 +1,59 @@
+#main-doc {
+  float: right;
+  width: 60%;
+  margin-right: 8%;
+}
+#navbar{
+position:fixed;
+  height: 97vh;
+  width: 15%;
+  top:0;
+  left: 8%;
+  float: left;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px black;
+  text-align: center;
+  margin: 5px
+}
+#js{
+  width:100%;
+  font-size: 25px;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  min-height: 40px;
+  width: 100%;
+  border-top: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  cursor: pointer;
+}
+.main-section {
+  border-left: solid 4px black;
+  border-right: solid 4px black;
+  border-top: solid 4px black;
+  padding: 5px
+}
+header {
+  border-bottom: solid 2px black;
+  padding: 5px 0 10px 0;
+  font-size: 30px;
+}
+p {
+  margin: 15px 0 15px 0;
+  line-height: 140%;
+  font-size: 22px;
+}
+li {
+  padding: 3px
+}
+@media {
+  
+}
